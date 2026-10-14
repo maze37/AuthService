@@ -1,7 +1,7 @@
 using Framework.Middlewares;
 using Serilog;
 
-namespace AuthService.Api.Configuration;
+namespace AuthService.Web.Configuration;
 
 public static class AppExtension
 {

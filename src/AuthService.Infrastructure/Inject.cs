@@ -10,8 +10,8 @@ public static class Inject
         this IServiceCollection services,
         IConfiguration configuration)
     {
-        var connectionString = configuration.GetConnectionString("AuthDatabase")
-            ?? throw new InvalidOperationException("Set ConnectionStrings__AuthDatabase.");
+        var connectionString = configuration.GetConnectionString("Database")
+            ?? throw new InvalidOperationException("Set ConnectionStrings__Database.");
 
         services.AddDbContext<AuthDbContext>(options => options.UseNpgsql(connectionString,
             postgres => postgres.MigrationsHistoryTable("__EFMigrationsHistory", "auth")));

@@ -1,4 +1,4 @@
-using AuthService.Api.Configuration;
+using AuthService.Web.Configuration;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()

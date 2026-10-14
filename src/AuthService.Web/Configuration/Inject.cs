@@ -2,7 +2,7 @@ using AuthService.Infrastructure;
 using AuthService.Application;
 using AuthService.Infrastructure.Health;
 
-namespace AuthService.Api.Configuration;
+namespace AuthService.Web.Configuration;
 
 public static class Inject
 {
