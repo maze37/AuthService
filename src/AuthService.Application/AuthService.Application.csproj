@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Mazeland.Core" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Scrutor" />
+    <ProjectReference Include="../AuthService.Domain/AuthService.Domain.csproj" />
+  </ItemGroup>
+</Project>
